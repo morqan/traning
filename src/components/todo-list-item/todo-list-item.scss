@@ -1,0 +1,22 @@
+.todo-list-item{
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+
+  span{
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+}
+
+.done{
+  text-decoration: line-through;
+  color: green;
+}
+.important{
+  color: green;
+  fontWeight: bold;
+}
+.w-38{
+  width: 38px;
+}
